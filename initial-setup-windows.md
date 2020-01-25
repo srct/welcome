@@ -2,13 +2,13 @@
 
 In order to contribute to SRCT projects, you need to install some software for both running the projects and editing code.
 
-# GitLab account
+# GitHub account
 
-If you haven't already, sign up for a GitLab account at https://git.gmu.edu/users/sign_in by clicking the "GMU Login" button in the bottom right. Login with your GMU info.
+If you haven't already, sign up for a GitHub account at https://github.com.
 
 ### SSH Keys
 
-To interact with GitLab, you need to upload your SSH keys. This lets GitHub identify who you are when you try to download and push changes to projects. Please follow the instructions on [this page](https://git.gmu.edu/srct/welcome/blob/master/ssh-keys.md) to setup your SSH Keys.
+To interact with GitHub, you need to upload your SSH keys. This lets GitHub identify who you are when you try to download and push changes to projects. Please follow the instructions on [this page](https://github.com/srct/welcome/blob/master/ssh-keys.md) to setup your SSH Keys.
 
 # Software
 

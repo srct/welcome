@@ -1,4 +1,4 @@
-SSH Keys allow you to connect to GitLab without entering a username and password. Some sites, like GitHub, let you choose which authentication mechanism you want to use, but our GitLab requires SSH Keys. Creating your own is simple.
+SSH Keys allow you to connect to GitHub without entering a username and password. Some sites, like GitHub, let you choose which authentication mechanism you want to use, but our GitHub requires SSH Keys. Creating your own is simple.
 
 ## Generate your key
 
@@ -15,7 +15,7 @@ There are three prompts to skip:
 
 So hit enter three times to skip these three prompts. Your key has been generated!
 
-## Uploading to GitLab
+## Uploading to GitHub
 
 First, copy the key to your clipboard so you can easily paste it. You can do this from the terminal:
 
@@ -25,14 +25,14 @@ First, copy the key to your clipboard so you can easily paste it. You can do thi
 
 **Linux**: `xclip -sel clip < ~/.ssh/id_ed25519.pub`
 
-Now, go to git.gmu.edu and login. Click on your avatar in the top right and click "Settings" in the dropdown. Select the "SSH Keys" Menu on the left. Paste your key into the box and click "Add Key".
+Now, go to github.com and login. Click on your avatar in the top right and click "Settings" in the dropdown. Select the "SSH and GPG Keys" Menu on the left. Click "New SSH Key", paste your key into the box and click "Add SSH Key".
 
 ## Testing
 
 To test if your key worked, run the following command in your terminal:
 
 ```sh
-ssh -T git@git.gmu.edu
+ssh -T git@github.com
 ```
 
 You should see a welcome message. If not, ask for help in the #help channel in Slack.
