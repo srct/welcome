@@ -18,7 +18,7 @@ A great first step into SRCT is to attend our meetings. We host weekly meetings 
 
 Lots of work goes into planning our meetings and events. If you want to make an impact on the org but aren't interested in contributing to our technical projects, helping to plan events is a great way to do that! To start, hang out at our meetings or post in Slack that you're interested and we'll get you involved.
 
-### Projects
+## Projects
 
 The main focus of our org is building software to benefit the Mason community. Hopefully you've used some of our software already, such as [Schedules](https://schedules.gmu.edu), [What's Open](https://whatsopen.gmu.du), or [Go](https://go.gmu.edu). We're always looking to add new features, improve existing features, and fix bugs in our software, so new contributors are always welcome. To get started contributing, please follow our inital setup guides for your operating system:
 
@@ -28,17 +28,24 @@ The main focus of our org is building software to benefit the Mason community. H
 
 Once you've gotten setup, there's a few crucial technologies you need to be familiar with before you can start contributing.
 
-#### Command Line
+### Command Line
 
 When working on any kind of software project, you're going to need to navigate around, run commands, and get yourself out of trouble on the command line. Learning the basics will take you far. If you're already familiar, feel free to skip ahead. If not, please complete the [DjangoGirls Introduction to command line](https://tutorial.djangogirls.org/en/intro_to_command_line/). This will get you up to speed with the basics.
 
 **NOTE**: if you're on Windows, use Git Bash to complete the tutorial and follow the OSX/Linux instructions. You'll use Git Bash to contribute to our projects so it's best to learn that instead of the default windows interface.
 
-#### Git
+### Git Workflow
 
 Git is the industry standard for version control, and it's what we use to manage our projects. Git is a necessary skill for software developement as it allows you to collaberate efficiently and effictively with other developers while building software.
 
-#### Pick a project
+Here is a quick overview of the workflow we use for working on our projects with Git.
+
+### 1. Clone the project
+
+This is described in more detail in each project's README.
+
+
+### Pick a project
 
 
 
