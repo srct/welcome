@@ -19,11 +19,11 @@ So hit enter three times to skip these three prompts. Your key has been generate
 
 First, copy the key to your clipboard so you can easily paste it. You can do this from the terminal:
 
-**MacOS**: `pbcopy < ~/.ssh/id_ed25519.pub`
+**MacOS**: `pbcopy < ~/.ssh/id_rsa.pub`
 
-**Git Bash on Windows**: `cat ~/.ssh/id_ed25519.pub | clip`
+**Git Bash on Windows**: `cat ~/.ssh/id_rsa.pub | clip`
 
-**Linux**: `xclip -sel clip < ~/.ssh/id_ed25519.pub`
+**Linux**: `xclip -sel clip < ~/.ssh/id_rsa.pub`
 
 Now, go to github.com and login. Click on your avatar in the top right and click "Settings" in the dropdown. Select the "SSH and GPG Keys" Menu on the left. Click "New SSH Key", paste your key into the box and click "Add SSH Key".
 
