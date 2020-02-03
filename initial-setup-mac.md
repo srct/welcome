@@ -6,7 +6,7 @@ In order to contribute to SRCT projects, you need to install some software for b
 
 If you haven't already, sign up for a GitHub account at https://github.com.
 
-### SSH Keys
+### 1. SSH Keys
 
 To interact with GitHub, you need to upload your SSH keys. This lets GitHub identify who you are when you try to download and push changes to projects. Please follow the instructions on [this page](https://github.com/srct/welcome/blob/master/ssh-keys.md) to setup your SSH Keys.
 
@@ -14,7 +14,7 @@ To interact with GitHub, you need to upload your SSH keys. This lets GitHub iden
 
 These packages are used in every SRCT project.
 
-### 1. Install Homebrew
+### 2. Install Homebrew
 
 For Mac, we recommend using Homebrew for installing software. It allows you to install almost all the software you need with just one command, instead of managing dozens of manual installers.
 
@@ -28,13 +28,13 @@ After Homebrew installs, run
 
 This allows you to install applications along with just developer tools.
 
-### 2. Install developer tools
+### 3. Install developer tools
 
 Run the following command to install a variety of necessary developer tools for Mac:
 
     xcode-select --install
 
-### 3. Install Slack
+### 4. Install Slack
 
 Slack is what we use to communicate.
 
@@ -43,13 +43,13 @@ Slack is what we use to communicate.
 After slack is installed, sign up for an account using your GMU email at https://srct.slack.com/signup.
 Log in using this account to the app you just installed. If any of these steps break, post in the #help channel!
 
-### 4. Install VSCode
+### 5. Install VSCode
 
 VSCode is a text editor that we recommend for editing code. It includes built in git integration, along with a powerful plugin system. Plus, it's pretty. If you have another preferred editor, feel free to use that instead. (No, Microsoft Word is not a text editor, and please don't use Notepad!)
 
     brew cask install visual-studio-code
 
-### 5. Install JavaScript
+### 6. Install JavaScript
 
 First, install node.js. Node allows you to run JavaScript programs on your computer.
 
@@ -59,7 +59,9 @@ Next, install Yarn, which is used for installing JavaScript packages used in our
 
     brew install yarn
 
-### 6. Install MySQL
+### 7. (Optional) Install MySQL
+
+**Only necessary if you are working on Schedules, Go, or What's Open.**
 
 MySQL is the database of choice for SRCT projects.
 
