@@ -48,6 +48,37 @@ This is described in more detail in each project's README.
 ### Pick a project
 
 
+## Making Code Changes
+
+Although it may seem intimidating at first, updating the code behind SRCT's projects is a very routine process. However, it does take some getting used to. This guide is here to walk you through your first technical contribution. Feel free to use it as a reference at any time!
+
+<!--
+### Prerequisites
+
+// Feel free to add anything here about what needs to be installed prior, such as ssh keys
+
+-->
+### Cloning
+
+The first step that must be taken prior to contributing to any project is cloning a copy of it to your own computer. With the copy, you can make any adjustments that you'd like without affecting the original stored on GitHub. To do this, go to the GitHub page of whichever project you're interested in. For us, that will be [github.com/srct/welcome](https://github.com/srct/welcome). Once here, click the bright green *Clone or download* button. In the pop-up window, ensure that *"Clone with SSH"* is displayed. If not, click *Use SSH*. From here, copy the information in the text box. For us, it should be: *git@github.com:srct/welcome.git*. Now, in your command line, head to a folder where you'd like all of your SRCT projects to be kept. Then, clone the project using: `git clone git@github.com:srct/welcome.git`.
+
+
+### Branching
+
+Now that you have the project stored on your computer, you're going to create a new "branch." When on this branch, you can add, remove, and edit the projects files. However, doing so will leave the project unchanged on the original branch, "master". To create a new branch and move to it, use `git checkout -b <branch name>`. Feel free to name the branch whatever you'd like!
+
+There are now three versions of the project. One, stored on GitHub, is the official production version. A second, stored on your computer, is contained in the branch "master" and is up-to-date with the version on GitHub. A third, also stored on your computer, is contained in the new branch that you've just created. Since no changes have been made to it, it is currently identical to the other two. Let's change that!
+
+
+## Adding Your Name
+
+Contained in the project, there should be a file by the name of "index.html". Open that using whatever web browser you'd prefer to get a look at it. Currently, a list of names should be displayed. However, it's missing a name: yours!
+
+Open the "index.html" with whatever text editor you feel comfortable with (*ie. Sublime Text, NotePad++, Visual Studio Code, etc...*). If you've never seen an HTML file before, don't sweat it! It simply displays the contents of webpages using a series of nested "tags". Inside of the `<ul>` tag, there should be at least one series of `<li><h3> {{ Name }}  </li></h3>` tags. This is what is displaying all of the current names. To add yours, replicate that code underneath of the last, inserting your name.
+
+
+
+
 
 
 
