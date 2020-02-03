@@ -95,7 +95,7 @@ Do this by running
 
 Oops! Before you can push to a SRCT GitHub project, you need to be added to the group. In Slack, post a message in the #help channel with your GitHub username asking to be added to the group and we'll add you as soon as we can.
 
-Once you've been added to the group, run `git push` again. Another error should appear. Before you can push, Git needs to know *where* to push to. Run the suggested command to tell Git to push to our GitHub page, then run `git push` again. Now it should work!
+Once you've been added to the group, run `git push` again. Another error should appear. Before you can push, Git needs to know *where* to push to. Run the suggested command to tell Git to push to our GitHub page.
 
 ### Merging your changes
 
