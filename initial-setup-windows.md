@@ -6,7 +6,7 @@ In order to contribute to SRCT projects, you need to install some software for b
 
 If you haven't already, sign up for a GitHub account at https://github.com.
 
-### SSH Keys
+### 1. SSH Keys
 
 To interact with GitHub, you need to upload your SSH keys. This lets GitHub identify who you are when you try to download and push changes to projects. Please follow the instructions on [this page](https://github.com/srct/welcome/blob/master/ssh-keys.md) to setup your SSH Keys.
 
@@ -14,7 +14,7 @@ To interact with GitHub, you need to upload your SSH keys. This lets GitHub iden
 
 These packages are used in every SRCT project.
 
-### 1. Install Chocolatey
+### 2. Install Chocolatey
 
 For Windows, we recommend using Chocolatey for installing software. It allows you to install almost all the software you need with just one command, instead of managing dozens of manual installers.
 
@@ -26,7 +26,7 @@ Curious what this does? Read more on the [Chocolatey Docs](https://chocolatey.or
 
 Next, close PowerShell and reopen it again (also as an administrator).
 
-### 2. Install Git
+### 3. Install Git
 
 Git is the software we use for version control.
 
@@ -36,7 +36,7 @@ Next, search for and open as administrator the "Git Bash" program. Use this now 
 
 Please note: after you install a program with Chocolatey, you need to **restart your Git Bash** in order for the installation to take effect.
 
-### 3. Install Slack
+### 4. Install Slack
 
 Slack is what we use to communicate.
 
@@ -45,13 +45,13 @@ Slack is what we use to communicate.
 After slack is installed, sign up for an account using your GMU email at https://srct.slack.com/signup.
 Log in using this account to the app you just installed. If any of these steps break, post in the #help channel!
 
-### 4. Install VSCode
+### 5. Install VSCode
 
 VSCode is a text editor that we recommend for editing code. It includes built in git integration, along with a powerful plugin system. Plus, it's pretty. If you have another preferred editor, feel free to use that instead. (No, Microsoft Word is not a text editor, and please don't use Notepad!)
 
     choco install vscode
 
-### 5. Install JavaScript
+### 6. Install JavaScript
 
 First, install node.js. Node allows you to run JavaScript programs on your computer.
 
@@ -61,7 +61,9 @@ Next, install Yarn, which is used for installing JavaScript packages used in our
 
     choco install yarn
 
-### 6. Install MySQL
+### 7. (Optional) Install MySQL
+
+**Only necessary if you are working on Go, Schedules, or What's Open.**
 
 MySQL is the database of choice for SRCT projects.
 
