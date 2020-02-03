@@ -56,6 +56,7 @@ Although it may seem intimidating at first, updating the code behind SRCT's proj
 
 The first step that must be taken prior to contributing to any project is cloning a copy of it to your own computer. With the copy, you can make any adjustments that you'd like without affecting the original stored on GitHub. To do this, go to the GitHub page of whichever project you're interested in. For us, that will be [github.com/srct/welcome](https://github.com/srct/welcome). Once here, click the bright green *Clone or download* button. In the pop-up window, ensure that *"Clone with SSH"* is displayed. If not, click *Use SSH*. From here, copy the information in the text box. For us, it should be: *git@github.com:srct/welcome.git*. Now, in your command line, head to a folder where you'd like all of your SRCT projects to be kept. Then, clone the project using: `git clone git@github.com:srct/welcome.git`.
 
+Run `cd welcome` to navigate into the project directory.
 
 ### Branching
 
