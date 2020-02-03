@@ -34,19 +34,13 @@ When working on any kind of software project, you're going to need to navigate a
 
 **NOTE**: if you're on Windows, use Git Bash to complete the tutorial and follow the OSX/Linux instructions. You'll use Git Bash to contribute to our projects so it's best to learn that instead of the default windows interface.
 
-### Git Workflow
+## Git Workflow
 
 Git is the industry standard for version control, and it's what we use to manage our projects. Git is a necessary skill for software developement as it allows you to collaberate efficiently and effictively with other developers while building software.
 
-Here is a quick overview of the workflow we use for working on our projects with Git.
+To understand how Git is used in our projects, follow the following tutorial to add your name to our [Contributor Page](https://srct.github.io/welcome/).
 
-### 1. Clone the project
-
-This is described in more detail in each project's README.
-
-
-### Pick a project
-
+**Make sure you've followed the initial setup instructions for your operating system!**
 
 ## Making Code Changes
 
@@ -76,6 +70,37 @@ Contained in the project, there should be a file by the name of "index.html". Op
 
 Open the "index.html" with whatever text editor you feel comfortable with (*ie. Sublime Text, NotePad++, Visual Studio Code, etc...*). If you've never seen an HTML file before, don't sweat it! It simply displays the contents of webpages using a series of nested "tags". Inside of the `<ul>` tag, there should be at least one series of `<li><h3> {{ Name }}  </li></h3>` tags. This is what is displaying all of the current names. To add yours, replicate that code underneath of the last, inserting your name.
 
+Now, if you open the `index.html` file, you should see your name on the page!
+
+### Commit your changes
+
+Now that you've added your name, it's time to save, or *commit* the change. To do this, you first need to *add* the file to tell Git you want your changes to this file to be saved:
+
+    git add index.html
+
+Now, we can use the `git commit` command to save your changes.
+
+    git commit -m "<message>"
+
+Feel free to set the meessage to whatever you'd like.
+
+### Push the branch
+
+With your change to `index.html` saved on your branch, the next step is to upload the branch with your change to the GitHub project. This way, the project manager will be able to review your changes to make sure everything is correct, and suggest feedback if it is not.
+
+Do this by running
+
+    git push
+
+Oops! Before you can push to a SRCT GitHub project, you need to be added to the group. In Slack, post a message in the #help channel with your GitHub username asking to be added to the group and we'll add you as soon as we can.
+
+Once you've been added to the group, run `git push` again. Another error should appear. Before you can push, Git needs to know *where* to push to. Run the suggested command to tell Git to push to our GitHub page, then run `git push` again. Now it should work!
+
+### Merging your changes
+
+With your branch on GitHub, it's time to formally ask for your changes to be merged into the projects `master` branch. Once this happens, the changes will be reflected on the live webpage. This process of asking for permission is called a "pull request". Go to the [Welcome GitHub page](https://github.com/srct/welcome) and create a new pull request from your branch.
+
+Your pull request will then be reviewed by a project manager and merged into the `master` branch if everything looks good. Once it's merged, head to https://srct.github.io/welcome/ to see your hard work!
 
 
 
