@@ -22,9 +22,9 @@ Lots of work goes into planning our meetings and events. If you want to make an 
 
 The main focus of our org is building software to benefit the Mason community. Hopefully you've used some of our software already, such as [Schedules](https://schedules.gmu.edu), [What's Open](https://whatsopen.gmu.du), or [Go](https://go.gmu.edu). We're always looking to add new features, improve existing features, and fix bugs in our software, so new contributors are always welcome. To get started contributing, please follow our inital setup guides for your operating system:
 
-- [Windows](https://git.gmu.edu/srct/welcome/blob/master/initial-setup-windows.md)
-- [Mac](https://git.gmu.edu/srct/welcome/blob/master/initial-setup-mac.md)
-- Linux (TODO: for now, we recommend following the Mac guide but using your distro's package manager instead of Homebrew.)
+- [Windows](https://github.com/srct/welcome/blob/master/initial-setup-windows.md)
+- [Mac](https://github.com/srct/welcome/blob/master/initial-setup-mac.md)
+- [Linux](https://github.com/srct/welcome/blob/master/initial-setup-linux.md)
 
 Once you've gotten setup, there's a few crucial technologies you need to be familiar with before you can start contributing.
 
