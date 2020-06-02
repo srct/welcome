@@ -38,13 +38,13 @@ Log in using this account to the app you just installed. If any of these steps b
 
 VSCode is a text editor that we recommend for editing code. It includes built in git integration, along with a powerful plugin system. Plus, it's pretty. If you have another preferred editor, feel free to use that instead. (No, Microsoft Word is not a text editor, and please don't use Notepad!)
 
-   sudo apt install visual-studio-code
+    sudo apt install visual-studio-code
 
 ### 5. Install Snap
 
 Snap is a software deployment and package management system that will be needed in the next step to install node.js.
 
-   sudo apt install snapd
+    sudo apt install snapd
 
 ### 6. Install JavaScript
 
@@ -65,6 +65,7 @@ Next, install Yarn, which is used for installing JavaScript packages used in our
 MySQL is the database of choice for SRCT projects.
 
     sudo apt install mysql-server
+    sudo apt install libmysqlclient-dev
 
 Run the command `sudo service mysql start` to start the database server, and if you want to stop it, run `sudo service mysql stop`.
 
